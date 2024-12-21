@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Magazzino</title>
+</head>
+<body>
+    
+    <h1>Magazzino</h1>
+
+
+    <div>
+        <h2>aggiungi/modifica prodotto</h2>
+        <input type="text" id="nome" placeholder="nome prodotto">
+        <input type="text" id="codice" placeholder="codice prodotto">
+        <input type="number" id="prezzo" placeholder="prezzo prodotto">
+        <input type="number" id="quantità" placeholder="quantità">
+        <button onclick="aggiungiProdotto()"><p>conferma</p></button>
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Codice</th>
+                <th>Nome</th>
+                <th>Prezzo</th>
+                <th>Quantità</th>
+            </tr>
+        </thead>
+        <tbody id="tabellaProdotti"></tbody> 
+    </table>
+
+
+    <div>
+        <input type="text" id="annulla" placeholder="inseirisci codice ">
+        <button onclick="rimuoviProdotto()"><p>conferma codice per eliminare</p></button>
+    </div>
+
+    <button onclick="prezzoTotale()">vedi il prezzo totale</button>
+
+    <button onclick="prodottiDaRiordinare()">Visualizza i prodotti da riordinare</button>
+
+
+    <div>
+        
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

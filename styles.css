@@ -1,0 +1,35 @@
+html{
+    color: white;
+}
+
+
+body {
+    text-align: center;
+    background-color: rgb(15, 41, 65);
+}
+
+
+table{
+    margin: auto;
+    padding: 20%;
+}
+
+input {
+    background-color: gray;
+    border-color: black;
+    border: 2px;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+::placeholder{
+    color: rgb(227, 227, 227);
+}
+
+button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: gray;
+    color: white;
+    border-radius: 50px;
+}
